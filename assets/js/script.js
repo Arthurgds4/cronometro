@@ -1,0 +1,1 @@
+const cronometro = querySelector('.cronometro');
