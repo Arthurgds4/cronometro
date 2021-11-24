@@ -1,1 +1,1 @@
-const cronometro = querySelector('.cronometro');
+const cronometro = document.querySelector('.cronometro');
