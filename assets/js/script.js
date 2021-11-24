@@ -23,6 +23,7 @@ const timeSpent = document.querySelector('#timeSpent');
 
 
 play.addEventListener('click', function (event) {
+    timeSpent.innerHTML = '';
     clearInterval(timer);
     playCronometro();
 })
