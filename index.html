@@ -22,7 +22,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <link href="carousel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,26 +35,29 @@
             </div>
         </nav>
     </header>
-    <main class="d-flex justify-content-center" style="padding: 5rem; background-color:#025CE2">
-        <div class="card" style="width: 18rem; border-radius:2rem";>
+    <main class="d-flex justify-content-center" style="padding: 1.25rem;  background-color:#70C2E8">
+        <div class="card" style="width: 18rem; border-radius:2rem;" ;>
             <img src="./assets/images/logoCronometro.png" class="card-img-top" alt="..." style="padding: 1rem;">
             <div class="card-body">
-                <h5 class="card-title d-flex justify-content-center">@arthurgomesdev</h5>
-                <h1 class="card-text  d-flex justify-content-center" style="font-size:3rem" class="cronometro" >
+                <h5 class="card-title d-flex justify-content-center" style="padding: 0.5rem; color:#025CE2">
+                    @arthurgomesdev</h5>
+                <h1 class="card-text  d-flex justify-content-center" style="font-size:3rem" class="cronometro">
                     00:00:00
                 </h1>
                 <div class="btn-group d-flex justify-content-center" style="padding:3rem;">
-                    <a href="#" class="btn btn-primary">Play</a>
-                    <a href="#" class="btn btn-primary">Pause</a>
-                    <a href="#" class="btn btn-primary">Stop</a>
+                    <button class="btn btn-primary" id="play">Play</button>
+                    <button class="btn btn-primary" id="pause">Pause</button>
+                    <button class="btn btn-primary" id= "reset">Reset</button>
                 </div>
             </div>
         </div>
     </main>
     <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
         <div class="container text-center">
-          <small>Copyright &copy; Arthur Gomes</small>
+            <small>Copyright &copy; Arthur Gomes</small>
         </div>
+
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
